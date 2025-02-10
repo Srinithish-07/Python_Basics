@@ -1,5 +1,5 @@
 def calculate_counts(word):
-    letters = digits = spaces = 0
+    letters = digits = spaces = 0 # chained assignment
     for char in word:
         if char.isdigit():
             digits += 1
