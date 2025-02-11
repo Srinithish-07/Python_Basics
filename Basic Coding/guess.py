@@ -8,5 +8,7 @@ def guess_num():
     else:
         print("Oops wrong Guess , Try again..")
         guess_num() #recursively called to avoid again running the code
+        # Can use while loop also but recursive call is much les time complexity
 
 guess_num()
+
