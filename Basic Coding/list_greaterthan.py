@@ -1,4 +1,5 @@
 def greater_than(key,my_list):
+    # Edge case to handle if the key is not present
     key_present = False
     for i in my_list:
         if key == i:
