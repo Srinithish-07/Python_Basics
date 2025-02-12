@@ -1,8 +1,10 @@
+# Write a Python program that takes a string input from the user and counts the number of vowels and consonants in it.
+# The program should also display the total length of the string.
 string = input("Enter  a string : ")
 vowels = 0
 consonants = 0
 for char in string:
-    if char.lower() in 'aeiou':
+    if char.lower() in 'aeiou': 
         vowels += 1
     elif char.isalpha():
         consonants += 1 
