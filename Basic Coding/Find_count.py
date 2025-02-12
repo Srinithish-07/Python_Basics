@@ -1,3 +1,4 @@
+# Write a Python program that takes a list of integers from the user and counts how many times a specific number appears in the list.
 my_list = []
 size = int(input("enter limit of list : "))
 for i in range(size):
