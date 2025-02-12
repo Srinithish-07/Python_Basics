@@ -1,7 +1,7 @@
 my_list = []
 size = int(input("enter limit of list : "))
 for i in range(size):
-    element = int(input(f"Enter {i} element : "))
+    element = int(input(f"Enter {i+1} element : "))
     my_list.append(element)
 
 key = int(input("enter a key : "))
