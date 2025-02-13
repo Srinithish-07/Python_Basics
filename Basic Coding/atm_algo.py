@@ -30,7 +30,7 @@ print(result)'''
 
 
 '''using list and loop to solving'''
-
+# advantage of list usage
 def amount_sort(total_amount):
     amount_list = [500,200,100,50,20,10,5,1]
     count = []
