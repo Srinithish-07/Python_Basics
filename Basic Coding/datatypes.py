@@ -1,6 +1,7 @@
 '''
     DataTypes in python
-        1. None
+        1. None -- None is a special singleton object that represents the absence of a value or a null value.
+           It is commonly used to indicate that a variable has no value, a function has no return statement, or as a default argument in functions.
         
         2. Numeric:-
             -> int  10
