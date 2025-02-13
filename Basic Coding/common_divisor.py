@@ -11,7 +11,7 @@ try:
     pair = list(map(int,nums.split()))
     if len(pair) == 2:
         result = common_divisor(pair)
-        print(f"Common Divisors of {pair[0]} and {pair[1]} are : ",result)
+        print(f"Common Divisors of {pair[0]} and {pair[1]} are : {result}")
 
     else:
         print("Enter only two elements..")
