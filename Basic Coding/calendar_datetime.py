@@ -1,3 +1,4 @@
+# Write a Python program that takes a user-input year and checks whether it is a leap year using the calendar module
 import calendar as cal
 from datetime import date
 
@@ -7,6 +8,8 @@ if cal.isleap(year):
 else:
     print(f"{year} is not a leap year.")
 
+
+# Print month calendar and year calendar
 year = 2024
 month = 11
 print(cal.month(year,month))
