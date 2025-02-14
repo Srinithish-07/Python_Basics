@@ -1,3 +1,4 @@
+# Simple py program to print time using datetime module
 import datetime
 now = datetime.datetime.now()
 print("Current Date and Time")
