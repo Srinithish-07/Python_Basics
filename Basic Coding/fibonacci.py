@@ -11,6 +11,7 @@ result = Fibonacci_series(limit)
 print(f"The fibonacci series : {result}")'''
 
 #using recursive function
+# optimised code
 def fibonacci_series(limit):
     if limit == 0:
         return []
