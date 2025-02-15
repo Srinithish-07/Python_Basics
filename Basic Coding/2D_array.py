@@ -1,6 +1,14 @@
 # Write a Python program that initializes a 2D list (matrix) with given rows and columns,
 # fills it with the product of its indices, and prints the resulting matrix.
 
+# Simple Algorithm (5 Steps):
+# Take Input – Get the number of rows and columns from the user.
+# Initialize Matrix – Create a 2D list filled with zeros.
+# Fill Matrix – Assign each element the product of its row and column indices.
+# Print Matrix – Display the 2D list in a structured format.
+# Fix Extra Row Issue – Remove the redundant matrix initialization inside the loop to prevent appending extra rows.
+
+
 row_num = int(input("Enter nos of rows : "))
 col_num = int(input("Enter nos of coloums : "))
 
