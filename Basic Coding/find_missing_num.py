@@ -1,3 +1,6 @@
+# Write a Python function that takes a phone number as input and determines which digits (0-9) are missing from it.
+# Ensure that the function handles invalid inputs gracefully
+
 def find_missing_digits(phone_number):
     phone_digits = set(str(phone_number)) # difference in set can give the missing nums in given input
     all_digits = set('0123456789')
