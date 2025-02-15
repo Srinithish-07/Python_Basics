@@ -1,3 +1,6 @@
+# Write a Python program that initializes a 2D list (matrix) with given rows and columns,
+# fills it with the product of its indices, and prints the resulting matrix.
+
 row_num = int(input("Enter nos of rows : "))
 col_num = int(input("Enter nos of coloums : "))
 
