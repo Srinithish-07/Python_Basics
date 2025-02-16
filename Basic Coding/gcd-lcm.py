@@ -23,8 +23,6 @@ def gcd_1(x,y):
     for k in range(int(y//2),0,-1):    #The loop starts from y//2 and decreases down to 1.
         if x%k == 0 and y%k == 0:      ## Since the highest possible GCD (other than y itself) is at most y//2, this reduces the number of iterations.
             gcd = k                                
-        
-
     return k
 
 print(gcd_1(84,12))
