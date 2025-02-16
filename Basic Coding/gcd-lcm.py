@@ -1,3 +1,7 @@
+# What are the differences between using the math module
+# and a manual approach to calculate the GCD and LCM of two numbers in Python?
+# Which method is more efficient, and why?
+
 '''fiirst type using math module'''
 import math as m
 def gcd(x,y):
