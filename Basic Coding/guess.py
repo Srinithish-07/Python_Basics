@@ -1,3 +1,7 @@
+# What will happen if the user never guesses the correct number in the given Python program?
+# Explain the impact of using recursion instead of a loop in this case.
+
+
 import random as r
 
 def guess_num():
