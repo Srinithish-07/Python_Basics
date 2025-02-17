@@ -1,12 +1,11 @@
 # What will happen if the user never guesses the correct number in the given Python program?
 # Explain the impact of using recursion instead of a loop in this case.
 
-
-import random as r
+import random
 
 def guess_num():
     user_input = int(input("\nGuess the number (1 to 10) : "))
-    random_num = r.randint(1,10)
+    random_num = random.randint(1,10)
     if user_input == random_num:
         print("Hooray! , u guessed correctly")
     else:
