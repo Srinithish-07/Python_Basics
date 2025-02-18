@@ -1,3 +1,10 @@
+# Write a Python function greater_than(key, my_list) that checks if all elements after the first occurrence of key in my_list are greater than key.
+
+Print "Key not present" if key is not in the list.
+Print "No, all the elements are not greater than the key" if there is any element after key that is smaller than or equal to key.
+Print "All elements are greater than the key" if all elements after key are greater.
+
+
 def greater_than(key,my_list):
     # Edge case to handle if the key is not present
     if key not in list:
