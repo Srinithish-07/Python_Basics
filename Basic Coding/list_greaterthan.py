@@ -16,10 +16,7 @@ def greater_than(key,my_list):
 
 
 n = int(input("Enter number of elements in list : "))
-list = []
-for i in range(n):
-    element = int(input(f"Enter element {i+1} : "))
-    list.append(element)
+list = [int(input(f"Enter element {i+1} : ")) for i in range(n)]
 print(f"\nlist : {list}")
 key = int(input("Enter the key : "))
 greater_than(key,list)
