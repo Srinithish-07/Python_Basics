@@ -5,6 +5,7 @@ for i in range(size):
     element = int(input(f"Enter {i+1} element : "))
     my_list.append(element)
 
+
 key = int(input("enter a key : "))
 count = 0
 for i in my_list:
