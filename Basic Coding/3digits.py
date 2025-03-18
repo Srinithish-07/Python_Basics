@@ -6,3 +6,4 @@ for i in range(100,400 + 1):
         print(str_num,end=',')
         
 
+
