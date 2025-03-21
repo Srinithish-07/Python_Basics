@@ -24,4 +24,3 @@ def distance():
 print(distance())
 
 
-
