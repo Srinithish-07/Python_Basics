@@ -9,7 +9,7 @@ def gcd(x,y):
 
 def lcm(x,y):
     return abs(x*y)//m.gcd(x,y)
-
+    
 print(gcd(98,22))
 print(lcm(98,22))
 
