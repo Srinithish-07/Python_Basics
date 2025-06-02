@@ -10,8 +10,6 @@
 
 
 
-
-
 row_num = int(input("Enter nos of rows : "))
 col_num = int(input("Enter nos of coloums : "))
 
