@@ -9,6 +9,7 @@
 # Fix Extra Row Issue – Remove the redundant matrix initialization inside the loop to prevent appending extra rows.
 
 
+
 row_num = int(input("Enter nos of rows : "))
 col_num = int(input("Enter nos of coloums : "))
 
