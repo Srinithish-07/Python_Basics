@@ -7,6 +7,7 @@ def common_divisor(pair):
     return ' '.join(divisors)
 
 try:
+    
     nums = input("Enter two integers (space-separated) : ")
     pair = list(map(int,nums.split()))
     if len(pair) == 2:
