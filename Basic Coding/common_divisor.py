@@ -5,7 +5,6 @@ def common_divisor(pair):
         if pair[0] % div == 0 and pair[1] % div == 0:
             divisors.append(str(div))
     return ' '.join(divisors)
-
 try:
     nums = input("Enter two integers (space-separated) : ")
     pair = list(map(int,nums.split()))
