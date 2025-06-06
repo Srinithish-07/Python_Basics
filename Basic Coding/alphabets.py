@@ -9,5 +9,4 @@ for char in string:
     elif char.isalpha():
         consonants += 1 
 
-pri
-nt(f'Totally there are {vowels} vowels and {consonants} consonants in the string of length {len(string)}')
+print(f'Totally there are {vowels} vowels and {consonants} consonants in the string of length {len(string)}')
