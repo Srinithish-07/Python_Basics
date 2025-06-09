@@ -10,3 +10,4 @@ for char in string:
         consonants += 1 
 
 print(f'Totally there are {vowels} vowels and {consonants} consonants in the string of length {len(string)}')
+
