@@ -12,3 +12,8 @@ def calculate_counts(word):
 
 word = input("Enter a string : ")
 calculate_counts(word)
+
+
+
+
+
