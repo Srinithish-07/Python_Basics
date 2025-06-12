@@ -14,4 +14,3 @@ word = input("Enter a string : ")
 calculate_counts(word)
 
 
-
