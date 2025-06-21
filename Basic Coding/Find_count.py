@@ -11,8 +11,3 @@ for i in my_list:
     if key == i:
         count += 1
 print(f"the number {key} present in list is {count} times")
-
-
-
-
-
